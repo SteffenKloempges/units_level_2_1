@@ -1,0 +1,55 @@
+body {
+    padding: 30px;
+}
+
+h1 {
+    border-top: 1px solid #000;
+}
+
+section {
+    border: 1px solid #000;
+}
+
+section ul {
+    list-style: none;
+}
+
+section ul li:first-child ul li:first-child ul li::before {
+    content: "🐶";
+}
+
+section ul li:first-child ul li:first-child ul {
+    padding: 0;
+}
+
+section ul li:first-child ul li:last-child ul li::before {
+    content: "🐈";
+}
+
+section ul li:first-child ul li:last-child ul {
+    padding: 0;
+}
+
+section ul li:nth-of-type(2) ul li ul li::before {
+    content: "🦜";
+}
+
+section ul li:nth-of-type(2) ul li ul {
+    padding: 0;
+}
+
+section ul li:nth-of-type(3) ul li:first-child ul li::before {
+    content: "🐍";
+}
+
+section ul li:nth-of-type(3) ul li:first-child ul {
+    padding: 0;
+}
+
+section ul li:nth-of-type(3) ul li:last-child ul li::before {
+    content: "🦎";
+}
+
+section ul li:nth-of-type(3) ul li:last-child ul {
+    padding: 0;
+}
